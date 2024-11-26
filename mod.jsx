@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";  // Regular React import
 
 const Card = ({ title, description, imageUrl, onAction, actionLabel = "Learn More" }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -32,21 +32,4 @@ const Card = ({ title, description, imageUrl, onAction, actionLabel = "Learn Mor
   );
 };
 
-export { Card };
-
-// File: examples/basic.jsx
-import { Card } from "../mod.jsx";
-
-const Example = () => {
-  const handleClick = () => alert('Clicked!');
-
-  return (
-    <Card
-      title="Example Card"
-      description="This is a basic example of the card component"
-      onAction={handleClick}
-    />
-  );
-};
-
-export { Example };
+export default Card;

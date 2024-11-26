@@ -1,5 +1,11 @@
 {
     "name": "@yourusername/component-name",
     "version": "0.1.0",
-    "exports": "./mod.jsx"
-  }
+    "exports": "./mod.jsx",
+    "publish": {
+        "include": [
+            "mod.jsx",
+            "README.md"
+        ]
+    }
+}
