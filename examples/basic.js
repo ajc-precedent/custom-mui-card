@@ -1,4 +1,4 @@
-import { Card } from "../mod.jsx";
+import { Card } from "../mod.js";
 
 const Example = () => {
   const handleClick = () => alert('Clicked!');

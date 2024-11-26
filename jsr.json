@@ -1,7 +1,7 @@
 {
     "name": "@yourusername/component-name",
     "version": "0.1.0",
-    "exports": "./mod.jsx",
+    "exports": "./mod.js",
     "publish": {
         "include": [
             "mod.jsx",
