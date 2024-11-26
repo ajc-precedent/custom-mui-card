@@ -1,5 +1,6 @@
 // File: README.md
-# @yourusername/component-name
+# @custom-mui-elements/card
+
 
 A simple, reusable React card component.
 
