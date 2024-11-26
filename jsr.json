@@ -1,11 +1,6 @@
 {
-    "name": "@yourusername/component-name",
+    "name": "@custom-mui-elements/card",
     "version": "0.1.0",
-    "exports": "./mod.js",
-    "publish": {
-        "include": [
-            "mod.jsx",
-            "README.md"
-        ]
-    }
-}
+    "license": "MIT",
+    "exports": "./mod.ts"
+  }
